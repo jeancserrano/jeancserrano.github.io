@@ -1666,6 +1666,9 @@ header .logo a {
 	left: 35%;
 	top: .9rem;
 	margin-left: -2.4rem;
+	display: flex; /* Added */
+        justify-content: center; /* Added */
+        align-items: center; /* Added */
 }
 #resume .timeline-ico i {
 	position: relative;
