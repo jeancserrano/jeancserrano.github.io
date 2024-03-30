@@ -1671,17 +1671,20 @@ header .logo a {
 	padding-top: 1.5rem;
 }
 #resume .timeline-ico {
-	height: 4.8rem;
-	width: 4.8rem;
-	line-height: 4.8rem;
-	background: #313131;
-	border-radius: 50%;
-	text-align: center;
-	color: #FFFFFF;
-	position: absolute;
-	left: 35%;
-	top: .9rem;
-	margin-left: -2.4rem;
+  height: 4.8rem;
+  width: 4.8rem;
+  line-height: 4.8rem;
+  background: #313131;
+  border-radius: 50%;
+  text-align: center;
+  color: #FFFFFF;
+  position: absolute;
+  left: 35%;
+  top: .9rem;
+  margin-left: -2.4rem;
+  display: flex; /* Added */
+  justify-content: center; /* Added */
+  align-items: center; /* Added */
 }
 #resume .timeline-ico i {
 	position: relative;
