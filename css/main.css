@@ -744,6 +744,24 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	padding: 0;
 }
 
+/* Add a container class for the buttons */
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Modify the button styles */
+.button,
+.button-primary {
+  margin-right: 1rem; /* Adjust the value as needed */
+}
+
+/* Apply the same spacing to the last button */
+.button:last-child,
+.button-primary:last-child {
+  margin-right: 0;
+}
+
 
 /** 
  * ===================================================================
