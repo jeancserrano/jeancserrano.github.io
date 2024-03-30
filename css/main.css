@@ -1049,13 +1049,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	margin-bottom: 3.6rem;
 	position: relative;
 }
-.intro-content .profile-pic {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  margin: 0 auto 20px;
-  display: block;
-}
 .section-intro h1 {
 	font-family: "poppins-semibold", serif;
 	font-size: 3.6rem;
@@ -1689,7 +1682,6 @@ header .logo a {
   left: 35%;
   top: .9rem;
   margin-left: -2.4rem;
-  display: flex; /* Added */
   justify-content: center; /* Added */
   align-items: center; /* Added */
 }
