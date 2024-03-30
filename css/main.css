@@ -744,24 +744,20 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	padding: 0;
 }
 
-/* Add a container class for the buttons */
 .button-container {
-  display: flex;
-  justify-content: center;
+  display: flex !important;
+  justify-content: center !important;
 }
 
-/* Modify the button styles */
-.button,
-.button-primary {
-  margin-right: 1rem; /* Adjust the value as needed */
+.button-container .button,
+.button-container .button-primary {
+  margin-right: 1rem !important;
 }
 
-/* Apply the same spacing to the last button */
-.button:last-child,
-.button-primary:last-child {
-  margin-right: 0;
+.button-container .button:last-child,
+.button-container .button-primary:last-child {
+  margin-right: 0 !important;
 }
-
 
 /** 
  * ===================================================================
