@@ -744,19 +744,14 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	padding: 0;
 }
 
-.button-container {
-  display: flex !important;
-  justify-content: center !important;
+.button-section .button-container .button,
+.button-section .button-container .button-primary {
+  margin-right: 1rem;
 }
 
-.button-container .button,
-.button-container .button-primary {
-  margin-right: 1rem !important;
-}
-
-.button-container .button:last-child,
-.button-container .button-primary:last-child {
-  margin-right: 0 !important;
+.button-section .button-container .button:last-child,
+.button-section .button-container .button-primary:last-child {
+  margin-right: 0;
 }
 
 /** 
